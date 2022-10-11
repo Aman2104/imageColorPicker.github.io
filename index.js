@@ -1,3 +1,9 @@
+
+if (!window.EyeDropper) {
+  document.querySelector(".result").innerHTML =  'Your browser does not support the EyeDropper API';
+  return;
+}
+
 const image_input = document.querySelector("#image_upload");
 let a = document.getElementById("display_image");
 
