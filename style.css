@@ -86,6 +86,13 @@ footer p a{
 footer p{
     font-size: 18px;
 }
+
+
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size:x-large!important;
+    font-weight: bold!important;
+}
 @media screen and (max-width: 852px){
     .inputImage{
         width: 55%;
